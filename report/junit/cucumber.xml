@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="83.62938">
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail" time="31.352731">
+<system-out><![CDATA[Given I set up the driver and open chrome...................................passed
+Given I launch the gmail....................................................passed
+When I  enter the testuser275275 and TESTuser275275.........................passed
+And I click on the login button.............................................passed
+Then I validate gmail inbox page for testuser275275.........................passed
+When I check the number of mail in the inbox................................passed
+Then I click on the first mail..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail 2" time="30.83849">
+<system-out><![CDATA[Given I set up the driver and open chrome...................................passed
+Given I launch the gmail....................................................passed
+When I  enter the 275275testuser and TESTuser275275.........................passed
+And I click on the login button.............................................passed
+Then I validate gmail inbox page for 275275testuser.........................passed
+When I check the number of mail in the inbox................................passed
+Then I click on the first mail..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Verifying the Hris" time="21.438159">
+<system-out><![CDATA[Given I set up the driver and open chrome...................................passed
+Given I launch the hris.....................................................passed
+When I  enter credentials to login..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
