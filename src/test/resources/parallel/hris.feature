@@ -1,7 +1,5 @@
 
-Feature: Title of your feature
-  I want to use this template for my feature file
-
+Feature: Verifying the functionality of the Web Sites
 Background: Setting up the driver
 	Given I set up the driver and open chrome
   #@Hris
