@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="78.161312">
-<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail" time="34.736106">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="102.016961">
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail" time="37.939722">
 <system-out><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the gmail....................................................passed
 When I  enter the testuser275275 and TESTuser275275.........................passed
@@ -9,7 +9,7 @@ When I check the number of mail in the inbox................................pass
 Then I click on the first mail..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail 2" time="23.562621">
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail 2" time="38.408031">
 <system-out><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the gmail....................................................passed
 When I  enter the 275275testuser and TESTuser275275.........................passed
@@ -19,7 +19,7 @@ When I check the number of mail in the inbox................................pass
 Then I click on the first mail..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the functionality of the Web Sites" name="Verifying the Hris" time="19.862585">
+<testcase classname="Verifying the functionality of the Web Sites" name="Verifying the Hris" time="25.669208">
 <system-out><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the hris.....................................................passed
 When I  enter credentials to login..........................................passed
