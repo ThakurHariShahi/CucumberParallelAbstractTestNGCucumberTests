@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.067865">
-<testcase classname="Title of your feature" name="Verifying the Hris" time="14.067865">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="78.161312">
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail" time="34.736106">
+<system-out><![CDATA[Given I set up the driver and open chrome...................................passed
+Given I launch the gmail....................................................passed
+When I  enter the testuser275275 and TESTuser275275.........................passed
+And I click on the login button.............................................passed
+Then I validate gmail inbox page for testuser275275.........................passed
+When I check the number of mail in the inbox................................passed
+Then I click on the first mail..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail 2" time="23.562621">
+<system-out><![CDATA[Given I set up the driver and open chrome...................................passed
+Given I launch the gmail....................................................passed
+When I  enter the 275275testuser and TESTuser275275.........................passed
+And I click on the login button.............................................passed
+Then I validate gmail inbox page for 275275testuser.........................passed
+When I check the number of mail in the inbox................................passed
+Then I click on the first mail..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the functionality of the Web Sites" name="Verifying the Hris" time="19.862585">
 <system-out><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the hris.....................................................passed
 When I  enter credentials to login..........................................passed

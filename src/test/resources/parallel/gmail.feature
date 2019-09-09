@@ -16,6 +16,6 @@ Background: Setting up the driver
 		Examples: 
       | username 					| password 							| 
       | testuser275275    |     TESTuser275275    |
-      | 275275testuser   |     TESTuser275275   | 
+      | 275275testuser    |     TESTuser275275    | 
     
   

@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 //		  3.USE maven-surefire-plugin PLUGIN TO PERFORM PARALLEL EXECUTION OF FEATURE FILES OR MULTIPLE SCENARIOS OF SINGLE FEATURE FILE
 //        4.THE RUNNER CLASS SHIULD HAVE TEST AT THE END
 @CucumberOptions(
-		features="src/test/resources/parallel/hris.feature"
+		features="src/test/resources/parallel/"
 		,plugin = {"html:report/html"
 				,"json:report/json/cucumber.json"
 				,"junit:report/junit/cucumber.xml"}
