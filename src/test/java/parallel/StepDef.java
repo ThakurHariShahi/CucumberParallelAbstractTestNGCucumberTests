@@ -100,6 +100,7 @@ public class StepDef {
 //        we = d.findElement(By.cssSelector("tr.zA[id=\":2u\"]"));
     	we = Getter.getLocator(d,  "firstMail" , locators);
         we.click();
+        d.close();
     }
 
    /***********************************************************************************************************************/
@@ -129,6 +130,7 @@ public class StepDef {
     	we = Getter.getLocator(d,  "signInButton" , locators);
 //    	we = d.findElement(By.cssSelector("input.btn"));
     	we.click();
+    	d.close();
     	
     }
     
