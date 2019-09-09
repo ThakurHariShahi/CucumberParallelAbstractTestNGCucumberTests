@@ -7,11 +7,12 @@ import org.testng.annotations.DataProvider;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-
-
-//TODO :- REMEMBER TO ADD RUNNER AND STEDDEF CLASSESS IN THE SAME PACKAGE
+//TODO :- 1.REMEMBER TO ADD RUNNER AND STEDDEF CLASSESS IN THE SAME PACKAGE
+//        2.THIS CODE HAS TO BE RUN IN CMD USING "mvn clean intall" COMMAND
+//		  3.USE maven-surefire-plugin TO PERFORM PARALLEL EXECUTION OF FEATURE FILES OR SCENARIOS OF SINGLE FEATURE FILE
+//        4.THE RUNNER CLASS SHIULD HAVE TEST AT THE END
 @CucumberOptions(
-		features="src/test/resources/parallel/"
+		features="src/test/resources/parallel/hris.feature"
 		,plugin = {"html:report/html"
 				,"json:report/json/cucumber.json"
 				,"junit:report/junit/cucumber.xml"}
@@ -20,6 +21,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		)
 public class RunCucumberTest extends AbstractTestNGCucumberTests{
+//public class Runner extends AbstractTestNGCucumberTests{	
 
     @Override
     @DataProvider(parallel = true)
