@@ -7,8 +7,9 @@ import org.testng.annotations.DataProvider;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-//TODO :- 1.REMEMBER TO ADD RUNNER AND STEDDEF CLASSESS IN THE SAME PACKAGE AND THE PACKAG NAME MUST BE PARALLEL
-//        2.THIS CODE HAS TO BE RUN IN CMD USING "mvn clean intall" COMMAND
+//TODO :- 1.REMEMBER TO ADD RUNNER AND STEDDEF CLASSESS IN THE SAME PACKAGE AND THE PACKAGE NAME MUST BE PARALLEL
+//        2.THIS CODE HAS TO BE RUN IN CMD USING "mvn clean intall" COMMAND or
+//			 						             "mvn clean test -Dtest=RunCucumberTest" command
 //		  3.USE maven-surefire-plugin PLUGIN TO PERFORM PARALLEL EXECUTION OF FEATURE FILES OR MULTIPLE SCENARIOS OF SINGLE FEATURE FILE
 //        4.THE RUNNER CLASS SHOULD HAVE TEST AT THE END OF ITS NAME
 @CucumberOptions(
@@ -28,4 +29,5 @@ public class RunCucumberTest extends AbstractTestNGCucumberTests{
     public Object[][] scenarios() {
         return super.scenarios();
     }
+    
 }

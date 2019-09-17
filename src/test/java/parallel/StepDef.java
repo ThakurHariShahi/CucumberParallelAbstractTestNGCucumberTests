@@ -10,8 +10,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-
 //TODO:-  USE cucumber.core DEPENDENCY
 //import cucumber.api.DataTable;
 import cucumber.api.PendingException;
@@ -34,6 +32,7 @@ public class StepDef {
 	String locators = "src/test/resources/YamlFiles/Locators.yml";
 	String urls = "src/test/resources/YamlFiles/Urls.yaml";
 	int i;
+	
 	@Given("^I set up the driver and open chrome$")
     public void i_set_up_the_driver_and_open_chrome() throws Throwable {
 		data = Getter.getConfig("Chrome" , config);

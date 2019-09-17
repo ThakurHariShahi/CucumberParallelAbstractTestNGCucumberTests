@@ -116,7 +116,8 @@ formatter.match({
   "location": "StepDef.i_validate_gmail_inbox_page_for(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: My error Msg :- I am not in Gmail Inbox expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:568)\r\n\tat parallel.StepDef.i_validate_gmail_inbox_page_for(StepDef.java:78)\r\n\tat ✽.I validate gmail inbox page for testuser275275(file:src/test/resources/parallel/gmail.feature:12)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "I check the number of mail in the inbox",
@@ -126,7 +127,7 @@ formatter.match({
   "location": "StepDef.i_check_the_number_of_mail_in_the_inbox()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "I click on the first mail",
@@ -136,7 +137,7 @@ formatter.match({
   "location": "StepDef.i_click_on_the_first_mail()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "name": "Setting up the driver",
@@ -196,7 +197,8 @@ formatter.match({
   "location": "StepDef.i_validate_gmail_inbox_page_for(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: My error Msg :- I am not in Gmail Inbox expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:568)\r\n\tat parallel.StepDef.i_validate_gmail_inbox_page_for(StepDef.java:78)\r\n\tat ✽.I validate gmail inbox page for 275275testuser(file:src/test/resources/parallel/gmail.feature:12)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "I check the number of mail in the inbox",
@@ -206,7 +208,7 @@ formatter.match({
   "location": "StepDef.i_check_the_number_of_mail_in_the_inbox()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "I click on the first mail",
@@ -216,7 +218,7 @@ formatter.match({
   "location": "StepDef.i_click_on_the_first_mail()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("file:src/test/resources/parallel/hris.feature");
 formatter.feature({

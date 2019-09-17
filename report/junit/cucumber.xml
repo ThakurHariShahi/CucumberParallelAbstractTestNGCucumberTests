@@ -1,25 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="102.016961">
-<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail" time="37.939722">
-<system-out><![CDATA[Given I set up the driver and open chrome...................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="101.701084">
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail" time="35.441868">
+<failure message="java.lang.AssertionError: My error Msg :- I am not in Gmail Inbox expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:568)&#13;&#10;&#9;at parallel.StepDef.i_validate_gmail_inbox_page_for(StepDef.java:78)&#13;&#10;&#9;at ✽.I validate gmail inbox page for testuser275275(file:src/test/resources/parallel/gmail.feature:12)&#13;&#10;"><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the gmail....................................................passed
 When I  enter the testuser275275 and TESTuser275275.........................passed
 And I click on the login button.............................................passed
-Then I validate gmail inbox page for testuser275275.........................passed
-When I check the number of mail in the inbox................................passed
-Then I click on the first mail..............................................passed
-]]></system-out>
+Then I validate gmail inbox page for testuser275275.........................failed
+When I check the number of mail in the inbox................................skipped
+Then I click on the first mail..............................................skipped
+
+StackTrace:
+java.lang.AssertionError: My error Msg :- I am not in Gmail Inbox expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at parallel.StepDef.i_validate_gmail_inbox_page_for(StepDef.java:78)
+	at ✽.I validate gmail inbox page for testuser275275(file:src/test/resources/parallel/gmail.feature:12)
+]]></failure>
 </testcase>
-<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail 2" time="38.408031">
-<system-out><![CDATA[Given I set up the driver and open chrome...................................passed
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Gmail 2" time="34.497798">
+<failure message="java.lang.AssertionError: My error Msg :- I am not in Gmail Inbox expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:568)&#13;&#10;&#9;at parallel.StepDef.i_validate_gmail_inbox_page_for(StepDef.java:78)&#13;&#10;&#9;at ✽.I validate gmail inbox page for 275275testuser(file:src/test/resources/parallel/gmail.feature:12)&#13;&#10;"><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the gmail....................................................passed
 When I  enter the 275275testuser and TESTuser275275.........................passed
 And I click on the login button.............................................passed
-Then I validate gmail inbox page for 275275testuser.........................passed
-When I check the number of mail in the inbox................................passed
-Then I click on the first mail..............................................passed
-]]></system-out>
+Then I validate gmail inbox page for 275275testuser.........................failed
+When I check the number of mail in the inbox................................skipped
+Then I click on the first mail..............................................skipped
+
+StackTrace:
+java.lang.AssertionError: My error Msg :- I am not in Gmail Inbox expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at parallel.StepDef.i_validate_gmail_inbox_page_for(StepDef.java:78)
+	at ✽.I validate gmail inbox page for 275275testuser(file:src/test/resources/parallel/gmail.feature:12)
+]]></failure>
 </testcase>
-<testcase classname="Verifying the functionality of the Web Sites" name="Verifying the Hris" time="25.669208">
+<testcase classname="Verifying the functionality of the Web Sites" name="Verifying the Hris" time="31.761418">
 <system-out><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the hris.....................................................passed
 When I  enter credentials to login..........................................passed
