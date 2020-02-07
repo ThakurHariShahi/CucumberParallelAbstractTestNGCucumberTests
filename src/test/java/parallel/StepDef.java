@@ -101,20 +101,6 @@ public class StepDef {
         we.click();
     }
 
-   /***********************************************************************************************************************/
-    
-    
-    @Given("^I launch the hris$")
-    public void i_launch_the_hris() throws Throwable {
-    	data = Getter.getUrls("Hris", urls);
-    	d.get(data);
-    	we = Getter.getLocator(d,  "loginPanel" , locators);
-//    	BaseUrl = "https://hris.qainfotech.com/login.php";
-//    	d.get(BaseUrl);
-//    	we = d.findElement(By.cssSelector("a.active>span"));
-    	we.click();
-        
-    }
 
     @When("^I  enter credentials to login$")
     public void i_enter_credentials_to_login(DataTable credentials) throws Throwable {
